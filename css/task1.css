@@ -1,0 +1,72 @@
+#section-a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height:100vh;
+}
+.task-2{
+    position: absolute;
+    right:0;
+    bottom: 10px;
+    width:160px;
+   padding:10px 0px;
+    background-color: #8F00FF;
+    color:white;
+    border: 0;
+    border-radius: 20px;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.task-2:hover{
+    background-color: #7928b8;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.start{
+    width:150px;
+    height:32px;
+    background-color: aqua;
+    margin-top: 20px;
+    position: absolute;
+    border-radius: 30px 0 30px 0;
+    opacity: 0.7;
+   
+}
+.start-one{
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 50%;
+    background-image: linear-gradient(to bottom,blue,#8F00FF);
+}
+.start-two{
+    position: absolute;
+    bottom: 50%;   
+    background-image: linear-gradient(to left,orangered,red);
+
+}
+.start-three{
+    position: absolute;
+    bottom: 50%; 
+    transform: rotate(-45deg);
+    background-image: linear-gradient(to top,yellow,rgb(134, 134, 56));
+
+
+}
+.start-four{
+    position: absolute;
+    bottom: 50%; 
+    transform: rotate(45deg);
+    background-image: linear-gradient(to top,blue,#8F00FF);
+
+}

@@ -1,0 +1,32 @@
+.container3{
+    width:50%;
+    background-color: grey;
+}
+
+table, tr, td {
+   
+    border-collapse: collapse;
+    padding: 10px;
+    font-weight: 700;
+    border:2px solid white;
+    
+  }
+
+  .heading{
+    color:white;
+    font-size: larger;
+    font-weight: 800;
+    background-color: black;
+  }
+  .sky{
+    background-color: rgb(122, 214, 214);
+  }
+  .aqua{
+    background-color:aqua;
+  }
+  .pink{
+    background-color: palevioletred;
+  }
+ /* table tr .thin{
+    border:1p x solid white !important;
+  } */
