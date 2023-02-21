@@ -27,6 +27,16 @@ table, tr, td {
   .pink{
     background-color: palevioletred;
   }
- /* table tr .thin{
-    border:1p x solid white !important;
-  } */
+
+  /* media query */
+
+  @media screen and (max-width:723px) {
+    .task-2{
+        position: absolute !important;
+        bottom: -190px !important;
+    }
+    .container3{
+        width:100% !important;
+        background-color: grey;
+    }
+  }

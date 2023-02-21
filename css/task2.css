@@ -99,3 +99,19 @@
 
 
 }
+
+/* media query */
+
+@media screen and (max-width:723px) {
+    .atSmall{
+        position: absolute;
+        bottom: -100px;
+        
+    }
+    .section-a_small{
+     
+          margin: 0 !important;
+          padding: 0 !important;
+      
+    }
+}
